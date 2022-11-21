@@ -1,0 +1,43 @@
+* {
+	padding: 0px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+body {
+	background: #e1f0ff;
+	margin: 0;
+	font: 15px "Arial", sans-serif;
+}
+
+canvas {
+	margin: 20px auto;
+	border: #89b 20px solid;
+}
+
+button {
+	padding: 16px 32px;
+	cursor: pointer;
+}
+
+input {
+	padding: 10px;
+	width: 50px;
+}
+
+table {
+	align-self: center;
+	border-collapse: collapse;
+	/* width:200px; */
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	/* display: none; */
+  }
+  
+  td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+  }

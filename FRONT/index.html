@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OCRHEPIA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div><canvas id="canvas" width="500px" height="500px"></canvas></div>
+    <button onclick="train()">Train</button> 
+    <button onclick="addToTest()">add to testing set</button> 
+    <button onclick="addToTrain()">add to training set</button>
+    <input type="number" min="0" max="9" id="target" value="0">
+    <br>
+    <br>
+    <button onclick="precision()">get precision</button>
+    <button onclick="recognize()">Find Value</button>
+    <input type="text" min="0" max="9" id="result"  readonly>
+    <br>
+    <br>
+    <button onclick="random()">Load random</button>
+    <button onclick="next()">Load next</button>
+    <button onclick="grid.clear()">Clear</button>
+    <br>
+    <table id="stats"></table>
+</body>
+<script type="text/javascript" src="./canvas.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+
+</html>
